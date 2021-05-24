@@ -52,7 +52,6 @@ public class OperacionesTest {
      * @see: operaciones.rango
      *
      */
-    @Ignore
     @Test
     public void testRango() {
         System.out.println("rango");
@@ -111,6 +110,7 @@ public class OperacionesTest {
      * @since: 1.0
      * @see: operaciones.extraerPositivos
      */
+    @Ignore
     @Test(expected= IllegalArgumentException.class)
     public void testExtraerPositivos() {
         System.out.println("extraerPositivos");

@@ -20,15 +20,11 @@ public class Operaciones {
                 nums = new int[a - b + 1];
                 for (int i = b; i <= a; i++) {
                     nums[0] = i;
-
-                    System.out.println(i);
                 }
             } else {
                 nums = new int[b - a + 1];
                 for (int i = a; i <= b; i++) {
                     nums[0] = i;
-
-                    System.out.println(i);
                 }
             }
         }
