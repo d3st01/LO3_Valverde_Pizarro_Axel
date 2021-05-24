@@ -31,14 +31,27 @@ public class Operaciones {
                     System.out.println(i);
                 }
             }
-        }return nums;
+        }
+        return nums;
     }
 
     public int sumRango(int a, int b) {
         int sum = 0;
-        for (int i = a; i < b; i++) {
-            sum += i;
+        if (a == b) {
+            sum = a;
+        } else {
+            if (b > a) {
+                for (int i = a; i < b; i++) {
+                    sum += i;
+                }
+            } else {
+                for (int i = b; i <= a; i++) {
+                    sum += i;
+                }
+            }
+
         }
+
         return sum;
     }
 

@@ -49,7 +49,7 @@ public class OperacionesTest {
      * @see: operaciones.rango
      * 
      */
-    
+    @Ignore
     @Test
     public void testRango() {
         System.out.println("rango");
@@ -68,7 +68,6 @@ public class OperacionesTest {
      * @since: 1.0
      * @see: operaciones.sumRango
      */
-    @Ignore
     @Test
     public void testSumRango() {
         System.out.println("sumRango");
