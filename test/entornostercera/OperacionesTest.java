@@ -41,6 +41,7 @@ public class OperacionesTest {
     /**
      * Test of rango method, of class Operaciones.
      */
+    @Ignore
     @Test
     public void testRango() {
         System.out.println("rango");
@@ -55,7 +56,6 @@ public class OperacionesTest {
     /**
      * Test of sumRango method, of class Operaciones.
      */
-    @Ignore
     @Test
     public void testSumRango() {
         System.out.println("sumRango");
