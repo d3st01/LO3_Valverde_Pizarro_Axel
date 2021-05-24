@@ -13,41 +13,44 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Ignore;
 
-/** 
- * Clase generada por java de los test borrando las dos ultimas lineas de cada test
+/**
+ * Clase generada por java de los test borrando las dos ultimas lineas de cada
+ * test
+ *
  * @author: Axel Ivan Valverde Pizarro
  * @version: 1.0
  * @since: 1.0
  * @see: operaciones.class
  */
 public class OperacionesTest {
-    
+
     public OperacionesTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
 
     /**
      * Test del metodo rango, de la clase Operaciones
+     *
      * @author: Axel Ivan Valverde Pizarro
      * @version: 1.0
      * @since: 1.0
      * @see: operaciones.rango
-     * 
+     *
      */
     @Ignore
     @Test
@@ -63,11 +66,13 @@ public class OperacionesTest {
 
     /**
      * Test del metodo sumRango, de la clase operaciones
+     *
      * @author: Axel Ivan Valverde Pizarro
      * @version: 1.0
      * @since: 1.0
      * @see: operaciones.sumRango
      */
+    @Ignore
     @Test
     public void testSumRango() {
         System.out.println("sumRango");
@@ -81,13 +86,13 @@ public class OperacionesTest {
 
     /**
      * Test del metodo isPar, de la clase operaciones
+     *
      * @author: Axel Ivan Valverde Pizarro
      * @version: 1.0
      * @since: 1.0
      * @see: operaciones.isPar
      */
-    @Ignore
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void testIsPar() {
         System.out.println("isPar");
         int a = 0;
@@ -99,6 +104,7 @@ public class OperacionesTest {
 
     /**
      * Test de la clase extraerPositivos, de la clase operaciones
+     *
      * @author: Axel Ivan Valverde Pizarro
      * @version: 1.0
      * @since: 1.0
@@ -114,5 +120,5 @@ public class OperacionesTest {
         int[] result = instance.extraerPositivos(nums);
         assertArrayEquals(expResult, result);
     }
-    
+
 }

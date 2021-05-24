@@ -49,15 +49,19 @@ public class Operaciones {
                     sum += i;
                 }
             }
-
         }
-
         return sum;
     }
 
     public boolean isPar(int a) {
         if (a % 2 == 0) {
+            if (a == 0) {
+                throw new IllegalArgumentException();
+            }
             return true;
+        }
+        if (a < 0) {
+            throw new IllegalArgumentException();
         }
         return false;
     }
