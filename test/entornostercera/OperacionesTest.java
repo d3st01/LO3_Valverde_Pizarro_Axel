@@ -71,6 +71,7 @@ public class OperacionesTest {
     /**
      * Test of isPar method, of class Operaciones.
      */
+    @Ignore
     @Test
     public void testIsPar() {
         System.out.println("isPar");
@@ -84,7 +85,6 @@ public class OperacionesTest {
     /**
      * Test of extraerPositivos method, of class Operaciones.
      */
-    @Ignore
     @Test
     public void testExtraerPositivos() {
         System.out.println("extraerPositivos");
