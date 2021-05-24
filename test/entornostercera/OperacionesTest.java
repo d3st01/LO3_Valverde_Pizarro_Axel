@@ -13,9 +13,12 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Ignore;
 
-/**
- *
- * @author Lenovo
+/** 
+ * Clase generada por java de los test borrando las dos ultimas lineas de cada test
+ * @author: Axel Ivan Valverde Pizarro
+ * @version: 1.0
+ * @since: 1.0
+ * @see: operaciones.class
  */
 public class OperacionesTest {
     
@@ -39,9 +42,14 @@ public class OperacionesTest {
     }
 
     /**
-     * Test of rango method, of class Operaciones.
+     * Test del metodo rango, de la clase Operaciones
+     * @author: Axel Ivan Valverde Pizarro
+     * @version: 1.0
+     * @since: 1.0
+     * @see: operaciones.rango
+     * 
      */
-    @Ignore
+    
     @Test
     public void testRango() {
         System.out.println("rango");
@@ -54,7 +62,11 @@ public class OperacionesTest {
     }
 
     /**
-     * Test of sumRango method, of class Operaciones.
+     * Test del metodo sumRango, de la clase operaciones
+     * @author: Axel Ivan Valverde Pizarro
+     * @version: 1.0
+     * @since: 1.0
+     * @see: operaciones.sumRango
      */
     @Ignore
     @Test
@@ -69,7 +81,11 @@ public class OperacionesTest {
     }
 
     /**
-     * Test of isPar method, of class Operaciones.
+     * Test del metodo isPar, de la clase operaciones
+     * @author: Axel Ivan Valverde Pizarro
+     * @version: 1.0
+     * @since: 1.0
+     * @see: operaciones.isPar
      */
     @Ignore
     @Test
@@ -83,8 +99,13 @@ public class OperacionesTest {
     }
 
     /**
-     * Test of extraerPositivos method, of class Operaciones.
+     * Test de la clase extraerPositivos, de la clase operaciones
+     * @author: Axel Ivan Valverde Pizarro
+     * @version: 1.0
+     * @since: 1.0
+     * @see: operaciones.extraerPositivos
      */
+    @Ignore
     @Test
     public void testExtraerPositivos() {
         System.out.println("extraerPositivos");

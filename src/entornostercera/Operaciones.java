@@ -12,11 +12,26 @@ package entornostercera;
 public class Operaciones {
 
     public int[] rango(int a, int b) {
-        int[] nums = new int[b - a];
-        for (int i = a; i < b; i++) {
-            nums[i] = i;
-        }
-        return nums;
+        int[] nums = new int[1];
+        if (a == 0 && b == 0) {
+            nums = null;
+        } else {
+            if (a > b) {
+                nums = new int[a - b + 1];
+                for (int i = b; i <= a; i++) {
+                    nums[0] = i;
+
+                    System.out.println(i);
+                }
+            } else {
+                nums = new int[b - a + 1];
+                for (int i = a; i <= b; i++) {
+                    nums[0] = i;
+
+                    System.out.println(i);
+                }
+            }
+        }return nums;
     }
 
     public int sumRango(int a, int b) {
