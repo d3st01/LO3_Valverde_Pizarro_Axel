@@ -92,6 +92,7 @@ public class OperacionesTest {
      * @since: 1.0
      * @see: operaciones.isPar
      */
+    @Ignore
     @Test(expected = IllegalArgumentException.class)
     public void testIsPar() {
         System.out.println("isPar");
@@ -110,8 +111,7 @@ public class OperacionesTest {
      * @since: 1.0
      * @see: operaciones.extraerPositivos
      */
-    @Ignore
-    @Test
+    @Test(expected= IllegalArgumentException.class)
     public void testExtraerPositivos() {
         System.out.println("extraerPositivos");
         int[] nums = null;
