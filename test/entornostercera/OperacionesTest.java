@@ -52,6 +52,7 @@ public class OperacionesTest {
      * @see: operaciones.rango
      *
      */
+    @Ignore
     @Test
     public void testRango() {
         System.out.println("rango");
