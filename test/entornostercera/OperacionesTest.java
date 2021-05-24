@@ -56,6 +56,7 @@ public class OperacionesTest {
     /**
      * Test of sumRango method, of class Operaciones.
      */
+    @Ignore
     @Test
     public void testSumRango() {
         System.out.println("sumRango");
@@ -70,7 +71,6 @@ public class OperacionesTest {
     /**
      * Test of isPar method, of class Operaciones.
      */
-    @Ignore
     @Test
     public void testIsPar() {
         System.out.println("isPar");
