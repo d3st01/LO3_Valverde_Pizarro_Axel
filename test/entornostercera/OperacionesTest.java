@@ -11,6 +11,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Ignore;
 
 /**
  *
@@ -49,13 +50,12 @@ public class OperacionesTest {
         int[] expResult = null;
         int[] result = instance.rango(a, b);
         assertArrayEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
      * Test of sumRango method, of class Operaciones.
      */
+    @Ignore
     @Test
     public void testSumRango() {
         System.out.println("sumRango");
@@ -65,13 +65,12 @@ public class OperacionesTest {
         int expResult = 0;
         int result = instance.sumRango(a, b);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
      * Test of isPar method, of class Operaciones.
      */
+    @Ignore
     @Test
     public void testIsPar() {
         System.out.println("isPar");
@@ -80,13 +79,12 @@ public class OperacionesTest {
         boolean expResult = false;
         boolean result = instance.isPar(a);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
      * Test of extraerPositivos method, of class Operaciones.
      */
+    @Ignore
     @Test
     public void testExtraerPositivos() {
         System.out.println("extraerPositivos");
@@ -95,8 +93,6 @@ public class OperacionesTest {
         int[] expResult = null;
         int[] result = instance.extraerPositivos(nums);
         assertArrayEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
